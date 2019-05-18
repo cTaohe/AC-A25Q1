@@ -39,9 +39,9 @@ axios.get(INDEX_URL)
   })
 
 //genres list's bar
-function list(genreList, i) {
+function list(genreList, list) {
   let textContent = ''
-  textContent = `<a class="list-group-item list-group-item-action" data-toggle="list" role="tab" href="#" data-id="${i + 1}">${Object.values(genreList)[i]}</a>`
+  textContent = `<a class="list-group-item list-group-item-action" data-toggle="list" role="tab" href="#" data-id="${list + 1}">${Object.values(genreList)[list]}</a>`
   listTab.innerHTML += textContent
 }
 
