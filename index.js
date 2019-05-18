@@ -73,7 +73,7 @@ function displayDataList(data) {
             <h5 class="card-title">${data[index].title}</h5>            
     `
     data[index].genres.forEach(function (value) {
-      htmlContent += `<p class="d-inline-block bg-light mx-1 ${value}">${genreList[value]}</p>`
+      htmlContent += `<p class="d-inline-block bg-light mx-1 px-2 ${value}">${genreList[value]}</p>`
     })
 
     htmlContent += `
