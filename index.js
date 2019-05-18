@@ -77,9 +77,9 @@ function displayDataList(data) {
     })
 
     htmlContent += `
-          </div >
-        </div >
-      </div >
+          </div>
+        </div>
+      </div>
     `
   })
   dataPanel.innerHTML = htmlContent
